@@ -17,7 +17,7 @@ LINK		=	-L $(SOUND) -lcommon -L $(SOUND) -lportaudio -L $(SOUND) -lsndfile
 
 CC		= gcc
 
-CFLAGS	= -g -Wextra -Wall -Werror -D_XOPEN_SOURCE_EXTENDED
+C_FLAGS	= -g -Wextra -Wall -Werror -D_XOPEN_SOURCE_EXTENDED
 
 RM		= rm -rf
 
